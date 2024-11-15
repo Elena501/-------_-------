@@ -1,0 +1,137 @@
+body {
+  font-size: 2em;
+  background-image: url(fon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1680px;
+}
+
+.container_row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgb(236, 190, 221); */
+}
+
+.title {
+  font-weight: 700;
+  color: blueviolet;
+  text-transform: uppercase;
+  text-shadow: 3px 1px 2px rgb(196, 173, 250);
+}
+
+.logo img {
+  width: 100px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3rem;
+  
+}
+
+.nav__home {
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  border: 5px solid rgb(196, 173, 250);
+  background-color: rgb(171, 202, 207);
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+.nav__home:hover {
+  background-color: rgb(220, 212, 250);
+}
+
+.nav__cart {
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  border: 5px solid rgb(196, 173, 250);
+  background-color: rgb(171, 202, 207);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+.nav__cart:hover {
+  background-color: rgb(220, 212, 250);
+}
+
+#container {
+  display: flex;
+  align-content: flex-start;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.productDiv {
+  align-content: flex-start;
+  height: 100%;
+  border: 2px solid rgb(194, 176, 204);
+  width: 250px;
+  text-align: nane;
+}
+
+.productDiv img {
+  width: 250px;
+}
+
+.productDiv p {
+  color: rgb(20, 62, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productDiv h3 {
+  color: rgb(196, 59, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonTime {
+  background-color: rgb(248, 201, 201);
+  padding: 5px;
+  margin: 30px;
+  border-radius: 5px;
+  text-align: center;
+  color: blueviolet;
+  cursor: pointer;
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+
+.buttonTime:hover {
+  background-color: bisque;
+}
+
+#conter {
+  
+  margin: 3px;
+  color: rgb(252, 251, 252);
+ background-color: rgb(124, 37, 146);
+ border-radius: 5px;
+ 
+}
+
+i {
+  color: rgb(88, 19, 153);
+  
+}

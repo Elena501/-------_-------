@@ -1,0 +1,181 @@
+body {
+  font-size: 2em;
+  background-image: url(fon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+ 
+.container_row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.title {
+  font-weight: 700;
+  color: blueviolet;
+  text-transform: uppercase;
+  text-shadow: 3px 1px 2px rgb(196, 173, 250);
+}
+
+.logo img {
+  width: 100px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.nav__home {
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  border: 5px solid rgb(196, 173, 250);
+  background-color: rgb(171, 202, 207);
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+.nav__home:hover {
+  background-color: rgb(220, 212, 250);
+}
+.nav__cart {
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  border: 5px solid rgb(196, 173, 250);
+  background-color: rgb(171, 202, 207);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+.nav__cart:hover {
+  background-color: rgb(220, 212, 250);
+}
+
+#conter {
+  margin: 3px;
+  color: rgb(252, 251, 252);
+ background-color: rgb(124, 37, 146);
+ border-radius: 5px;
+}
+
+i {
+  color: rgb(88, 19, 153);
+}
+
+.product-header {
+  display: flex;
+  padding: 20px;
+  margin: 5px 70px 5px 45px;
+  align-items: center;
+  color: blueviolet;
+  font-size: 1.8rem;
+  background-color: rgb(222, 226, 225);
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+
+
+
+.product {
+  display: flex;
+  padding: 20px;
+  margin: 5px 70px 5px 45px;
+  align-items: center;
+  color: rgb(245, 67, 67);
+  font-size: 2rem;
+  background-color: rgb(222, 226, 225);
+  box-shadow: 3px 0px 7px rgb(167, 166, 168);
+}
+
+
+img {
+  width: 100px;
+}
+
+.product-title {
+  width: 40%;
+  display: flex;
+  justify-content:flex-start;
+
+
+}
+.product-info{
+  width: 40%;
+  display: flex;
+  justify-content:flex-start;
+  gap: 70px;
+  align-items: center;
+}
+
+
+
+.price {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 20%;
+}
+
+.product-price {
+  display: flex;
+  justify-content:center;
+  width: 20%;
+  align-items: center;
+}
+
+.quantity {
+  width: 20%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.product-amount {
+width: 20%;
+display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+
+}
+
+.total {
+  width: 20%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.product-total {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 20%;
+}
+
+#deleteClick {
+  cursor: pointer;
+}
+
+#increase{
+  cursor: pointer;
+}
+
+#decrease {
+  cursor: pointer;
+} 
+
